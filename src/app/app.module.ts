@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { PerfilComponent } from './components/perfil/perfil.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarraNavegacionComponent,
+    InicioComponent,
+    PerfilComponent,
+    ExperienciaComponent,
+    HabilidadesComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
