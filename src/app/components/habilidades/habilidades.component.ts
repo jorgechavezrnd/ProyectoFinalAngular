@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Component({
   selector: 'habilidades',
@@ -8,20 +9,17 @@ import { Component, OnInit } from '@angular/core';
 export class HabilidadesComponent implements OnInit {
   private lenguajes:any=[];
 
-  constructor() {
-    this.lenguajes.push("C++");
-    this.lenguajes.push("Java");
-    this.lenguajes.push("C#");
-    this.lenguajes.push("C");
-    this.lenguajes.push("Python");
-    this.lenguajes.push("PHP");
-    this.lenguajes.push("Haskell");
-    this.lenguajes.push("Scala");
-    this.lenguajes.push("Ruby");
-    this.lenguajes.push("Ensamblador");
+  constructor(private http: Http) {
    }
 
   ngOnInit() {
+;
+    let url = 'http://localhost:3000/habilidades'
+
+    this.http.get(url).subscribe((response: any) => {
+      this.lenguajes = JSON.parse(response._body);
+    })
+
   }
 
 }

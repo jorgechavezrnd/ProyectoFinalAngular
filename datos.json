@@ -1,0 +1,79 @@
+{
+    "habilidades" : [
+        {
+            "nombre": "C++"
+        },
+        {
+            "nombre": "Java"
+        },
+        {
+            "nombre": "C#"
+        },
+        {
+            "nombre": "C"
+        },
+        {
+            "nombre": "Python"
+        },
+        {
+            "nombre": "PHP"
+        },
+        {
+            "nombre": "Haskell"
+        },
+        {
+            "nombre": "Scala"
+        },
+        {
+            "nombre": "Ruby"
+        },
+        {
+            "nombre": "Ensamblador"
+        }
+    ],
+    
+    "experiencia" : [
+        {
+            "nombre": "Taller de programacion"
+        },
+        {
+            "nombre": "Redes de computadoras I"
+        },
+        {
+            "nombre": "Bases de datos II"
+        },
+        {
+            "nombre": "Sistemas web"
+        },
+        {
+            "nombre": "Estructuras de datos y algoritmos"
+        },
+        {
+            "nombre": "Sistemas operativos"
+        },
+        {
+            "nombre": "Bases de datos I"
+        },
+        {
+            "nombre": "Investigacion operativa I"
+        },
+        {
+            "nombre": "Taller de investigacion"
+        },
+        {
+            "nombre": "Programacion II"
+        }
+    ],
+
+    "imagenes": [
+        {
+            "direccion": "../assets/restApi.png"
+        },
+        {
+            "direccion": "../assets/servidor.jpg"
+        },
+        {
+            "direccion": "../assets/cliente.png"
+        }
+    ]
+}
